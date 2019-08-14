@@ -5,5 +5,5 @@ def square_array(array)
 end
 
 def square_advanced(array)
-  array.map{|ele| ele ** 2}
+  array.inject{|acc, el| acc 
 end
